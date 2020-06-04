@@ -1,6 +1,6 @@
 export class EmailDTO{
     readonly email: string;
-    readonly timestamp: string;
+    readonly timestamp: number;
     readonly "smtp-id": string;
     readonly event: string;
     readonly category: string;
